@@ -1,0 +1,27 @@
+.hero{
+    text-align: center;
+}
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .shop-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .shop-btn:hover{
+background-color: white;
+color: rgb(91, 90, 90);
+border: solid black;
+  }
+  
