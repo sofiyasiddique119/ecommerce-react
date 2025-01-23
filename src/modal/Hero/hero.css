@@ -1,6 +1,7 @@
 .hero{
     text-align: center;
-    background: url(bg1.avif);
+    background: url("/bg1.avif");
+    background-size: cover;
     height: 100vh;
    
     
