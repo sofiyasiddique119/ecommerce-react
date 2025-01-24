@@ -45,6 +45,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
+              
               className="newsletter-input"
               required
             />

@@ -12,8 +12,7 @@ function Navbar() {
 <li className="navbar-item"><a href="#">Contact</a></li>
         </ul>
         <div className="navbar-act"><button className="login-btn">Log-in</button>
-        <h1><FaCartShopping /></h1></div>
-        
+        <h2><FaCartShopping /></h2></div>
     </nav>
   )
 }
