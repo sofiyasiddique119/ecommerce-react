@@ -13,7 +13,7 @@ useEffect(()=>{
   servercall()
 },[])
   return (
-     <section className="Latest-products">
+     <section className="Latest-products" id='latest'>
       <div className='latest'><h1>Latest Products</h1></div>
     <div className='latestContainer'>
       {
