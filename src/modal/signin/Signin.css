@@ -1,0 +1,44 @@
+*{background-color: rgb(212, 205, 205);
+
+}
+.heading{
+    text-align: center;
+    font-style: italic;
+    color: rgb(108, 107, 107);
+    margin-top: 100px;
+}
+
+.conatiner1{
+text-align: center;
+margin-top: 70px;
+}
+.labels1{
+   
+   
+}
+.header{
+    margin-top: 10px;
+    color: rgb(91, 91, 235);
+}
+
+.inputs{
+    height: 25px;
+    width: 220px;
+    border-radius: 5px;
+    
+
+}
+.btn{
+    width: 220px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: rgb(155, 149, 149);
+    color: white;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(230, 223, 223);
+    color: black;
+}
