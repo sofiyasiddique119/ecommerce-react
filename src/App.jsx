@@ -1,20 +1,23 @@
-import React, { useState } from 'react'
-import "./userauth.css"
-import Signup from '../../modal/signup/Signup'
-import Signin from '../../modal/signin/Signin'
-function UserAuth() {
-    const[authType,setAuthType]= useState("signup")
+import React from 'react'
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Landing from './pages/landing/landing'
+import AboutUs from './pages/About/AboutUs'
+import Cart from './pages/cart/Cart'
+import UserAuth from './pages/UserAuth/UserAuth'
+function App() {
   return (
     <div>
-      {
-      authType === "signup"?
-      <Signup setAuthType={setAuthType}/>
-      :
-      <Signin setAuthType={setAuthType}/>
-      
-    }
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element = {<Landing/>} />
+        <Route path="/about" element ={<AboutUs/>}/>
+        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/auth"element ={<UserAuth/>}/>
+      </Routes>
+      </BrowserRouter>
+
     </div>
   )
 }
 
-export default UserAuth
+export default App
