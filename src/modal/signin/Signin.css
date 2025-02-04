@@ -1,6 +1,5 @@
-*{background-color: rgb(212, 205, 205);
 
-}
+
 .heading{
     text-align: center;
     font-style: italic;
@@ -35,6 +34,7 @@ margin-top: 70px;
     background-color: rgb(155, 149, 149);
     color: white;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .btn:hover{

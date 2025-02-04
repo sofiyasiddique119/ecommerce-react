@@ -14,7 +14,7 @@ const Signin = ({setAuthType}) =>{
         <input type="password" id='password' className='inputs' placeholder='' />
       </label> <br />
       <button type='submit' className='btn'>Login</button>
-      <p className='header'>Don't have a acount? <a onClick={()=>{setAuthType('signup')}}>Signup</a></p> </div>
+      <p className='header'>Don't have a account? <a onClick={()=>{setAuthType('signup')}}>Signup</a></p> </div>
     </form>
   )
 }
